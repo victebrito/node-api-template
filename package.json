@@ -1,0 +1,38 @@
+{
+  "name": "node-api-template",
+  "version": "1.0.0",
+  "description": "Node Typescript API template to be used in new projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start index.js",
+    "stop": "pm2 stop index.js",
+    "dev": "NODE_ENV=development nodemon index.js --inspect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlckconsulting/partybot.git"
+  },
+  "author": "Victor Brito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victebrito/node-api-template"
+  },
+  "homepage": "https://github.com/victebrito/node-api-template#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1054.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-formidable": "^1.2.0",
+    "express-list-endpoints": "^6.0.0",
+    "mongoose": "^6.1.5",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "pm2": "^5.1.2"
+  }
+}
